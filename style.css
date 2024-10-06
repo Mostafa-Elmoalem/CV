@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'poppins', 'san-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: uppercase;
+
+}
+
+header {
+    background-color: linear-gradient(to top, rgb(182, 182, 182), rgb(228, 228, 228));
+    width: 100%;
+    position: fixed;
+    padding: 10px 200px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(33, 15, 196, 0.911);
+    font-weight: 1000;
+    font-size: 1.7em;
+}
+
+.logo:hover {
+    color: green;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(51, 196, 15, 0.911);
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0px 20px;
+}
+
+nav a:hover {
+    color: blue;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 13em 0 0 10em;
+
+}
+
+
+.main h2 {
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 500;
+    float: left;
+
+}
+
+.main h2 span {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 60px;
+    color: rgb(77, 179, 226);
+    display: inline-block;
+}
+
+.main h3 {
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    transform: scale(1.06);
+    background-color: rgb(126, 16, 230);
+}
+
+.social-icons a {
+    color: #ffffff;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    transition: 0.5s ease;
+
+}
+
+
+.social-icons a:hover {
+    transform: scale(1.5);
+    color: #3f4dca
+}
+
+#servises {
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3f4dca;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-top: 50px;
+
+}
+
+.contant {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-self: center;
+
+}
+
+.card {
+    background-color: #ffffff;
+    width: 20em;
+    box-shadow: 0 5px 25px #cecdcd;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    text-align: center;
+    height: 20em;
+
+
+
+}
+
+.card:hover {
+    transform: scale(1.06);
+    background-color: #ececec;
+}
+
+.words {
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.words h2 {
+    margin: 0px;
+    font-size: 1.2em;
+
+}
+
+.icon {
+    font-size: 100px;
+    color: #3a6cf4;
+}
+
+
+.pro {
+    background-color: #070318;
+
+}
+
+.pro .contant {
+    margin-top: 30px;
+
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.6s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.06);
+    opacity: 0.9;
+}
+
+.project-img img {
+    width: 100%;
+    align-self: center;
+}
+
+.card .icon {
+
+    font-size: 4em;
+
+}
+
+.card .words p {
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+}
+
+.footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-size: 1em;
+
+}
+
+.footer span {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #4f5bc4;
+}
+
+.card strong {
+    font-size: 1.5em;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.card .email {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+@media (max-width:1023px) {
+    header {
+        padding: 10px 5px 5px 10px;
+        justify-content: space-between;
+
+    }
+
+    nav a {
+        padding: 0 0 10px 0;
+
+    }
+
+    .logo {
+        padding: 10px 20px;
+
+    }
+
+    .social-icons {
+        padding-left: 20px;
+    }
+
+    .footer {
+        padding: 2px 0 2px 10px;
+    }
+}
